@@ -50,6 +50,23 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <form
+  action="https://tally.so/r/nGa9ZO"
+  method="POST"
+  className="flex flex-col sm:flex-row gap-3 w-full max-w-md"
+>
+  <input
+    name="email"
+    type="email"
+    required
+    placeholder="Email address"
+    className="flex-1 border px-3 py-2 rounded"
+  />
+  <button className="bg-black text-white px-4 py-2 rounded">
+    Join wait-list
+  </button>
+</form>
+
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
